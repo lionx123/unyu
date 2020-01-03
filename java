@@ -8,3 +8,5 @@ javascript: (function() {
     var spamlink = document.getElementsByClassName('gmr-notification player-notification global-notification');
     spamlink[0].parentNode.removeChild(spamlink[0]);
 })()
+
+javascript: window.CallToAnAndroidFunction.setVisible()
