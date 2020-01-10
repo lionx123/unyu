@@ -1,6 +1,7 @@
 {
 "maintenance" : false,
 "isUpdate" : true,
+"logo" : "https://github.com/lionx123/unyu/raw/master/logobanner.png",
 
 "urlPromote" : "https://play.google.com/store/apps/details?id=com.tencent.ig",
 "titlePromote" : "HD Movies",
