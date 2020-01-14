@@ -1,5 +1,8 @@
 javascript: (function() {
-    document.querySelector('footer').style = 'display: none';
+    var footer = document.getElementsByTagName("footer"), index;
+for (index = footer.length - 1; index >= 0; index--) {
+    footer[index].parentNode.removeChild(footer[index]);
+}
     var btm = document.getElementsByClassName('tags-btm');
     if (btm.length > 0) {
         btm[0].parentNode.removeChild(btm[3]);
